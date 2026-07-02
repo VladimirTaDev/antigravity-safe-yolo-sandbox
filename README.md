@@ -21,7 +21,7 @@ By running Antigravity in Windows Sandbox, you can grant the agent full autonomo
 
 ## How to Use
 
-1. **Download:** Place `launch_safe_yolo_antigravity_in_windows_sandbox_1.0.cmd` into the root folder of the project you want the agent to work on.
+1. **Download:** Place `launch_safe_yolo_antigravity_in_windows_sandbox_1.1.cmd` into the root folder of the project you want the agent to work on.
 2. **Launch:** Double-click the script. It will automatically compile the sandbox configuration, extract your credentials, and boot the virtual machine.
 3. **Work:** The sandbox will boot and begin installing its dependencies (which only takes a minute). **Disclaimer:** Please wait until the Windows Terminal window automatically pops up with `agy` logged in and running in dangerous mode. This is the signal that everything is fully installed and ready to use!
 4. **Save and Exit:** When you are finished, **do not just close the Sandbox window**. Double-click the `Close_Sandbox_Preserving_agy_history_and_settings` shortcut that was automatically generated on the Sandbox's Desktop. This guarantees your conversation history is safely merged back to your host before shutting down the VM.
